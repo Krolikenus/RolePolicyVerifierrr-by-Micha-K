@@ -31,7 +31,7 @@ public class RolePolicyVerifier {
     }
 
     public static void main(String[] args) {
-        File plikWejsciowy = new File("C:\\Users\\kroli\\.jdks\\openjdk-22\\bin\\input.json");
+        File plikWejsciowy = new File("Ścieżka do pliku input.json");
         // Ścieżka do pliku JSON
         boolean jestPoprawny = sprawdzJSON(plikWejsciowy);
         System.out.println("Czy dane wejściowe są poprawne? " + jestPoprawny);
